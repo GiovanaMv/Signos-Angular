@@ -1,0 +1,31 @@
+#Sobre {
+  color: rgb(253, 255, 130);
+  margin-left: 182px;
+
+}
+
+img {
+  width: 350px;
+  //     margin: 0px auto 24px; width: 250;  @media 678px mobile
+  // width: 300px; margin: 32px auto 32px; @media 768px tablet
+}
+h3 {
+  margin-top: 32px;
+}
+p {
+  text-align: justify;
+}
+ul {
+  display: grid;
+  grid-template-columns: 90px 90px 90px 150px 90px;
+  margin-top: 18px;
+  padding-left: 6px;
+}
+li {
+  margin: auto;
+}
+.description {
+  width: 480px;
+  // width: 280px; margin : auto; @ media mobile
+  // width: 320px; margin-left: 24px; margin: auto; @media tablet
+}

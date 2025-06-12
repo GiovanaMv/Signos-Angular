@@ -1,0 +1,69 @@
+ .compatibilidade-container {
+   text-align: center;
+   margin: 20px auto;
+   margin-top: 102px;
+   padding-bottom: 20px;
+
+   h2 {
+     font-size: 1.5rem;
+     font-weight: 400;
+     margin-bottom: 20px;
+     color: #78ff4f;
+   }
+
+   .form {
+     display: inline-flex;
+     align-items: center;
+     margin-bottom: 30px;
+     justify-content: center;
+     gap: 10px;
+     font-weight: 400;
+
+     input {
+       padding: 10px;
+       border: 2px solid #ff40cf;
+       color: #c22f02;
+       font-weight: bold;
+       border-radius: 20px;
+       font-size: 16px;
+       text-align: center;
+       width: 150px;
+       outline: none;
+       transition: border-color 0.3s;
+
+       &:focus {
+         border-color: #38a7da;
+       }
+     }
+     .sinal{
+      font-size: 24px;
+      font-weight: bold;
+      color: #fff676;
+    }
+   }
+
+   button {
+     padding: 10px 20px;
+     background: #f35584;
+     color: #fff;
+     border: none;
+     border-radius: 20px;
+     font-size: 1rem;
+     font-weight: 450;
+     cursor: pointer;
+     transition: background 0.2s;
+
+     &:hover {
+       background: #8cd1ff;
+       color: #e43687;
+     }
+   }
+   #resultado {
+     font-size: 1.3rem;
+     margin-top: 12px;
+     font-weight: 600;
+     color: #fff676;
+ }
+ }
+
+

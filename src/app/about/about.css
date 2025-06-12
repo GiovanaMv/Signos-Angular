@@ -1,0 +1,31 @@
+#Sobre {
+  color: rgb(253, 255, 130);
+  margin-left: 182px;
+}
+
+img {
+  width: 350px;
+}
+
+h3 {
+  margin-top: 32px;
+}
+
+p {
+  text-align: justify;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: 90px 90px 90px 150px 90px;
+  margin-top: 18px;
+  padding-left: 6px;
+}
+
+li {
+  margin: auto;
+}
+
+.description {
+  width: 480px;
+}/*# sourceMappingURL=about.css.map */

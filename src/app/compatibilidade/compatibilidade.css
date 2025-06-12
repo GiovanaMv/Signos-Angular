@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/* Container centralizado */
+.compatibilidade-container {
+  text-align: center;
+  margin: 20px auto;
+  padding-bottom: 20px;
+  font-family: Poppins, serif;
+}
+
+/* Título */
+.compatibilidade-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #78ff4f;
+}
+
+/* Formulário de compatibilidade */
+.compatibilidade-form {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 30px;
+  justify-content: center;
+  gap: 10px; /* Espaço entre os elementos */
+}
+
+/* Input estilizado */
+.compatibilidade-form input {
+  padding: 10px;
+  border: 2px solid #ff40cf;
+  color: #c22f02;
+  font-weight: bold;
+  border-radius: 20px; /* Borda arredondada */
+  font-size: 16px;
+  text-align: center;
+  width: 150px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+/* Efeito ao focar no input */
+.compatibilidade-form input:focus {
+  border-color: #38a7da; /* Laranja vibrante */
+}
+
+/* Sinais + e = */
+.compatibilidade-form .sinal {
+  font-size: 24px;
+  font-weight: bold;
+  color: #e4ff6b;
+}
+
+/* Resultado */
+.resultado {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff676; /* Laranja vibrante */
+}
+
+/* Botão de calcular */
+.compatibilidade-container button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #f35584; /* Laranja vibrante */
+  color: #fff;
+  border: none;
+  border-radius: 20px; /* Borda arredondada no botão */
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.compatibilidade-container button:hover {
+  background: #8cd1ff; /* Laranja mais escuro ao passar o mouse */
+  color: #e43687;
+}/*# sourceMappingURL=compatibilidade.css.map */

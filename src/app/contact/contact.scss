@@ -1,0 +1,78 @@
+#Contato {
+  letter-spacing: 1px;
+
+  form {
+    margin-left: 72px;
+  }
+  h2,
+  h3,
+  h5,
+  label {
+    color: #fff78d;
+  }
+
+  h2 {
+    text-align: center;
+    margin: 0;
+  }
+
+  label {
+    font-weight: 500;
+    margin-top: 12px;
+  }
+
+  input,
+  textarea {
+    width: 70%;
+    color: #441101;
+    font-weight: 500;
+    background-color: #811f026c;
+    border: none;
+  }
+
+  textarea {
+    resize: none;
+  }
+
+  button {
+    // background-color: #c22f02;
+    background-color: #611802;
+    color: #fffeb3;
+    margin-top: 12px;
+    font-weight: 500;
+
+    &:hover {
+      background-color: #441000;
+    }
+  }
+
+  #redes-sociais {
+    .row {
+      width: 500px;
+      margin-top: 48px;
+      text-align: center;
+
+      ul {
+        display: flex;
+        margin-left: 180px;
+      }
+
+      i {
+        color: #611802;
+      }
+
+      h3 {
+        font-size: 1.3rem;
+      }
+
+      h5 {
+        font-size: medium;
+      }
+
+    }
+  }
+
+  .row {
+    margin-top: 32px;
+  }
+}

@@ -1,0 +1,198 @@
+#Elementos {
+  margin-top: 82px;
+  h2 {
+    color: rgb(253, 255, 130);
+    text-align: center;
+    margin: 42px auto 32px;
+  }
+
+  img {
+    width: 100px;
+  }
+
+  .nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .nav-pills .nav-link.active,
+  .nav-pills .show>.nav-link {
+    background-color: #da20d0;
+    color: #ffffff;
+  }
+
+  .nav-link {
+    color: #fdfdfd;
+  }
+
+  .nav-link:hover {
+    background-color: #da20d0;
+
+  }
+
+  .Planetas,
+  .Pedras,
+  .colors,
+  .flower {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 32px;
+    margin-left: 118px;
+    gap: 52px;
+    text-align: center;
+    color: #f7ff87;
+    cursor: pointer;
+
+    h4 {
+      font-size: small;
+      font-weight: 300;
+      margin-top: 5px;
+    }
+
+    p {
+      font-size: medium;
+      margin: 0;
+      text-shadow: 0 0 20px rgb(227, 255, 103), 0 0 20px rgba(144, 252, 117, 0.6), 0 0 2px rgba(132, 255, 116, 0.4);
+    }
+
+    .regentes,
+    .Preciosas,
+    .Cores,
+    .Flor {
+      &:hover {
+        transform: scale(1.3);
+        transition: transform 0.3s;
+      }
+    }
+  }
+
+  .Pedras,
+  .flower {
+    margin-top: 18px;
+    margin-left: 182px;
+    gap: 32px;
+    color: #21e275;
+
+    img {
+      max-width: 90px;
+    }
+
+    p {
+      color: #72f9ac;
+      text-shadow: 0 0 20px rgb(159, 255, 103), 0 0 20px rgba(144, 252, 117, 0.6);
+    }
+  }
+
+  #Cores {
+    .colors {
+      color: #fffd8c;
+
+      p {
+        text-shadow: 0 0 10px rgba(250, 255, 179, 0.89);
+      }
+    }
+
+    .Circulo {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+    }
+
+    #corPeixes {
+      background: linear-gradient(#ee22b1, rgb(127, 125, 255), rgb(79, 216, 79));
+    }
+
+    #Câncer {
+      background: linear-gradient(#cacbfd, rgb(157, 157, 158));
+    }
+
+    #Áries {
+      background: linear-gradient(rgb(255, 72, 0), #ffcc6f)
+    }
+
+    #Touro {
+      background: linear-gradient(rgb(0, 255, 34), rgb(6, 54, 6))
+    }
+
+    #Gêmeos {
+      background: linear-gradient(#ecff9a, rgb(255, 183, 125))
+    }
+
+    #Leão {
+      background: linear-gradient(rgb(255, 252, 49), #ff7231)
+    }
+
+    #Virgem {
+      background: linear-gradient(rgb(14, 161, 1), #c70000)
+    }
+
+    #Libra {
+      background: linear-gradient(#ff29bf, rgb(127, 125, 255))
+    }
+
+    #Escorpião {
+      background: linear-gradient(rgb(148, 22, 0), #ff5a0e)
+    }
+
+    #Sagitário {
+      background: linear-gradient(#c735a7, rgb(80, 15, 105))
+    }
+
+    #Capricórnio {
+      background: linear-gradient(#551f00, #adadad)
+    }
+
+    #Aquário {
+      background: linear-gradient(#ee22b1, yellow, #ff5a0e)
+    }
+  }
+
+  #Plantas-Medicinais {
+    .Plantas {
+      text-align: justify;
+      display: grid;
+      grid-template-columns: 220px 220px 220px 220px;
+      margin-top: 48px;
+      margin-left: 62px;
+      gap: 42px;
+      cursor: pointer;
+
+      h4,
+      h5 {
+        text-align: center;
+      }
+
+      h4 {
+        font-size: 1rem;
+        color: rgb(253, 255, 130);
+      }
+
+      h5 {
+        font-size: 1.2rem;
+        color: #f7ff87;
+        text-shadow: 0 0 20px rgb(227, 255, 103), 0 0 20px rgba(240, 255, 152, 0.6);
+      }
+
+      p {
+        font-size: small;
+        color: #fdfdfd;
+      }
+
+      .protecao {
+        position: relative;
+        transition: transform 0.3s ease;
+        will-change: transform;
+        transform-origin: center;
+
+        &:hover {
+          transform: scale(1.2);
+          z-index: 10;
+          background-color: #2b088adc;
+          border: 1px solid yellow;
+          border-radius: 8px;
+          padding: 12px;
+        }
+      }
+    }
+  }
+}

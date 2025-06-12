@@ -3,9 +3,10 @@ body,
 html {
   overflow-x: hidden;
   height: 100%;
+  cursor: pointer;
 }
 
 body {
   font-family: Poppins, serif;
   background: radial-gradient(circle, red, rebeccapurple, violet);
-}
+}/*# sourceMappingURL=styles.css.map */

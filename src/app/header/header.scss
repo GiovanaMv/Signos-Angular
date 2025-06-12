@@ -1,0 +1,21 @@
+header#cabecalho {
+  color: rgb(255, 255, 255);
+  background: radial-gradient(circle, red, rebeccapurple, violet);
+  font-family: 'Poppins', serif;
+}
+
+.navbar-brand {
+  font-size: 40px;
+  color: rgb(253, 255, 130);
+}
+i {
+  color:rgb(253, 255, 130);
+}
+.nav-link {
+  color: #fdfdfd;
+
+  &:hover {
+    background-color: #da20d0;
+    color: #fdfdfd;
+  }
+}

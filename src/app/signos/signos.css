@@ -1,0 +1,51 @@
+#Signos {
+  text-align: center;
+  font-family: Poppins, serif;
+}
+#Signos h2 {
+  color: rgb(253, 255, 130);
+  margin-bottom: 12px;
+  margin-top: 72px;
+}
+#Signos .row {
+  display: grid;
+  grid-template-columns: 280px 295px 280px 280px;
+}
+#Signos .card {
+  height: 432px;
+  margin-top: 21px;
+  border: none;
+  background-color: transparent;
+  color: white;
+  background: radial-gradient(circle, rgba(243, 3, 211, 0.685), rgb(83, 65, 184), rgba(200, 255, 71, 0.925));
+}
+#Signos .card .card-header {
+  border: none;
+}
+#Signos .card .card-header h3 {
+  margin: 3px 48px 6px;
+  font-size: x-large;
+  text-align: center;
+  color: rgb(253, 255, 130);
+}
+#Signos .card .card-header p {
+  text-align: center;
+  margin: 0;
+  font-size: smaller;
+}
+#Signos .card .card-header img {
+  width: 50%;
+  margin: 6px;
+}
+#Signos .card .card-body {
+  font-size: 0.9rem;
+  text-align: justify;
+}
+#Signos .card .card-footer {
+  font-size: small;
+  border: none;
+}
+#Signos .card:hover {
+  transform: scale(1.1);
+  transition: transform 0.4s;
+}/*# sourceMappingURL=signos.css.map */

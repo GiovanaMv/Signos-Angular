@@ -1,0 +1,13 @@
+<div class="compatibilidade-container">
+  <h2> <span class="sinal">❤️</span>Compatibilidade Amorosa<span class="sinal">❤️</span></h2>
+  <div class="form">
+    <label>
+      <input placeholder="Primeiro signo" type="text" [(ngModel)]="signo1" />
+    </label>
+    <span class="sinal">+</span>
+    <label>
+      <input placeholder="Segundo signo" type="text" [(ngModel)]="signo2" />
+    </label>
+    <button (click)="calcularCompatibilidade()">Calcular</button>
+    <p id="resultado">{{ resultado }}</p>
+  </div>

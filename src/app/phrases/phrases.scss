@@ -1,0 +1,30 @@
+.phrases {
+  margin: 32px auto auto;
+  background-color: transparent;
+  box-shadow: 0 0 20px rgb(139, 0, 253), 0 0 20px rgba(0, 47, 255, 0.6), 0 0 20px rgba(242, 255, 56, 0.973);
+  color: #fff389;
+  border-radius: 30px;
+  padding: 12px;
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+  width: 1020px;
+  cursor: pointer;
+}
+.signo {
+  display: inline;
+  padding: 12px;
+  font-weight: 500;
+  font-size: large;
+}
+.signo:hover {
+  transform: scale(1.3); /* Cresce 10% */
+  // color: #5da3ff;
+  color: rgb(69, 0, 71);
+}
+h3 {
+  margin-top: 32px;
+  font-size: x-large;
+  font-weight: 400;
+  text-align: center;
+  color: #87ffa5;
+  text-shadow: 0 0 20px rgb(151, 255, 103), 0 0 20px rgba(144, 252, 117, 0.6), 0 0 2px rgba(132, 255, 116, 0.4);
+}

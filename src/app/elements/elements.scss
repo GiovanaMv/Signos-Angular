@@ -1,5 +1,6 @@
 #Elementos {
   margin-top: 82px;
+
   h2 {
     color: rgb(253, 255, 130);
     text-align: center;
@@ -12,7 +13,7 @@
 
   .nav {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(5, 1fr);
   }
 
   .nav-pills .nav-link.active,
@@ -23,19 +24,19 @@
 
   .nav-link {
     color: #fdfdfd;
+
+    &:hover {
+      background-color: #da20d0;
+    }
   }
 
-  .nav-link:hover {
-    background-color: #da20d0;
-
-  }
 
   .Planetas,
   .Pedras,
   .colors,
   .flower {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(6, 1fr);
     margin-top: 32px;
     margin-left: 118px;
     gap: 52px;
@@ -192,6 +193,95 @@
           border-radius: 8px;
           padding: 12px;
         }
+      }
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  #Elementos {
+    margin-top: 12px;
+
+    .nav {
+      grid-template-columns: repeat(5, 70px);
+    }
+
+    .nav-pills .nav-link.active,
+    .nav-pills .show>.nav-link {
+      padding: 0px;
+    }
+
+    .nav-link {
+      font-size: small;
+      padding: 3px;
+      text-align: center;
+    }
+
+    .Planetas,
+    .Pedras,
+    .colors,
+    .flower {
+      grid-template-columns: repeat(3, 1fr);
+      margin-left: 6px;
+      gap: 12px;
+    }
+
+    .Pedras,
+    .flower {
+      margin-left: 0px;
+      gap: 8px;
+      margin-top: 18px;
+      color: #f5ff69;
+
+      p {
+        color: #f5ff69;
+      }
+    }
+
+    #Plantas-Medicinais {
+      .Plantas {
+        grid-template-columns: 300px;
+        margin-left: 24px;
+        margin-top: 12px;
+        gap: 12px;
+
+        h4 {
+          font-size: 0.9rem;
+
+        }
+
+        h5 {
+          font-size: 1.1rem;
+
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 640px) and (max-width: 1023px) {
+  #Elementos {
+    margin-top: 32px;
+
+    .Planetas,
+    .Pedras,
+    .colors,
+    .flower {
+      margin-left: 6px;
+      gap: 18px;
+    }
+
+    .Pedras,
+    .flower {
+      margin-left: 18px;
+      gap: 24px;
+    }
+
+    #Plantas-Medicinais {
+      .Plantas {
+        margin-left: 0px;
+        gap: 18px;
+        grid-template-columns: 220px 220px 220px;
       }
     }
   }

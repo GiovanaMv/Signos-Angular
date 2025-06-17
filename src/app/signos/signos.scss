@@ -6,48 +6,136 @@
     color: rgb(253, 255, 130);
     margin-bottom: 12px;
     margin-top: 72px;
-
   }
+
   .row {
     display: grid;
     grid-template-columns: 280px 295px 280px 280px;
-
   }
+
   .card {
     height: 432px;
     margin-top: 21px;
     border: none;
     background-color: transparent;
     color: white;
-    background: radial-gradient(circle, rgba(243, 3, 211, 0.685),rgb(83, 65, 184), rgba(200, 255, 71, 0.925));
+    background: radial-gradient(circle, rgba(243, 3, 211, 0.685), rgb(83, 65, 184), rgba(200, 255, 71, 0.925));
 
     .card-header {
       border: none;
-    h3 {
-      margin: 3px 48px 6px;
-      font-size: x-large;
-      text-align: center;
-      color:rgb(253, 255, 130);
+
+      h3 {
+        margin: 3px 48px 6px;
+        font-size: x-large;
+        text-align: center;
+        color: rgb(253, 255, 130);
+      }
+
+      p {
+        text-align: center;
+        margin: 0;
+        font-size: smaller;
+      }
+
+      img {
+        width: 50%;
+        margin: 6px;
+      }
     }
-    p {
-      text-align: center;
+
+    .card-body {
+      font-size: 0.9rem;
+      text-align: justify;
+    }
+
+    .card-footer {
+      font-size: small;
+      border: none;
+    }
+
+    &:hover {
+      transform: scale(1.1);
+      transition: transform 0.4s;
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  #Signos {
+    h2 {
+      grid-template-columns: 1fr;
+    }
+
+    .row {
+      grid-template-columns: 350px;
+      margin: auto;
+    }
+
+    .card {
+      display: grid;
+      grid-template-columns: 350px;
+      height: 338px;
+      margin: 12px;
+
+      .card-header {
+        margin-right: 38px;
+
+        h3 {
+          font-size: 1rem;
+        }
+
+        p {
+          font-size: 12px;
+          text-align: center;
+        }
+
+        img {
+          width: 30%;
+        }
+      }
+
+      .card-body {
+        padding: 0;
+
+        p {
+          width: 250px;
+          text-align: justify;
+          margin-left: 24px;
+          margin-top: 8px;
+        }
+      }
+
+      .card-footer {
+        font-size: smaller;
+        margin-right: 38px;
+        padding: 0;
+      }
+    }
+  }
+}
+
+@media (min-width: 640px) and (max-width: 1023px) {
+  #Signos {
+    h2 {
       margin: 0;
-      font-size: smaller;
     }
-    img {
-      width: 50%;
-      margin: 6px;
+
+    .row {
+      grid-template-columns: repeat(3, 1fr);
     }
-  }
-  .card-body {
-    font-size: 0.9rem;
-    text-align: justify;
-  }
-  .card-footer {
-    font-size: small;
-    // background-color: #80b4e5;
-    border: none;
-  }
-  &:hover {transform: scale(1.1);transition: transform 0.4s;}
+
+    .card {
+      height: 415px;
+      width: 212px;
+
+      .card-header {
+        h3 {
+            font-size: smaller;
+        }
+        p {
+          font-size: 12px;
+        }
+      }
+    }
   }
 }

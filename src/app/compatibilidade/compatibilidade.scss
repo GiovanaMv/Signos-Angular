@@ -35,11 +35,12 @@
          border-color: #38a7da;
        }
      }
-     .sinal{
-      font-size: 24px;
-      font-weight: bold;
-      color: #fff676;
-    }
+
+     .sinal {
+       font-size: 24px;
+       font-weight: bold;
+       color: #fff676;
+     }
    }
 
    button {
@@ -58,12 +59,44 @@
        color: #e43687;
      }
    }
+
    #resultado {
      font-size: 1.3rem;
      margin-top: 12px;
      font-weight: 600;
      color: #fff676;
- }
+   }
  }
 
+ @media (max-width: 640px) {
+   .compatibilidade-container {
+     margin-top: 72px;
 
+     h2 {
+       font-size: 1.2rem;
+       margin-bottom: 32px;
+     }
+
+     .form {
+       display: block;
+
+       .sinal {
+         margin: 12px;
+       }
+     }
+
+     button {
+       margin-top: 24px;
+     }
+
+     #resultado {
+       margin-top: 24px;
+     }
+   }
+ }
+
+ @media (min-width: 640px) and (max-width: 1023px) {
+   .compatibilidade-container {
+     margin-top: 80px;
+   }
+ }

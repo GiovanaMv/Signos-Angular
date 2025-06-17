@@ -4,6 +4,7 @@
   form {
     margin-left: 72px;
   }
+
   h2,
   h3,
   h5,
@@ -35,7 +36,6 @@
   }
 
   button {
-    // background-color: #c22f02;
     background-color: #611802;
     color: #fffeb3;
     margin-top: 12px;
@@ -47,6 +47,7 @@
   }
 
   #redes-sociais {
+
     .row {
       width: 500px;
       margin-top: 48px;
@@ -68,11 +69,48 @@
       h5 {
         font-size: medium;
       }
-
     }
   }
 
   .row {
     margin-top: 32px;
+  }
+}
+
+@media (max-width: 640px) {
+  #Contato {
+    form {
+      width: 400px;
+      margin-left: 32px;
+    }
+
+    #redes-sociais {
+      .row {
+        width: 400px;
+        margin-top: 24px;
+
+        ul {
+          margin-left: 128px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 640px) and (max-width: 1023px) {
+  #Contato {
+    form {
+      width: 350px;
+    }
+
+    #redes-sociais {
+      .row {
+        width: 350px;
+
+        ul {
+          margin-left: 102px;
+        }
+      }
+    }
   }
 }
